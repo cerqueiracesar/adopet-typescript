@@ -2,15 +2,10 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
-    "noImplicitAny": true,
-    "outDir": "./build",  // Pasta de saída
-    "noEmitOnError": true,
-    "baseUrl": "./src",  // Base para resolver os caminhos relativos
-    "paths": {
-      "controller/*": ["controller/*"]  // Mapeamento de controller
-    },
-    "rootDir": "./src",  // Diretório raiz para os arquivos de origem
-    "resolveJsonModule": true
+        "outDir": "./build",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
   },
   "include": [
     "./src/**/*",   // Incluindo todos os arquivos dentro de src
