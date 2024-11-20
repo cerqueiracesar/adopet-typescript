@@ -30,3 +30,8 @@ Durante o desenvolvimento, foram implementados **filtros genéricos** com base e
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+## Licença
+Este jogo é um projeto das aulas da Alura de programação.
+
+Divirta-se jogando e programando! 😊
